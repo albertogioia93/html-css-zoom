@@ -13,12 +13,25 @@ Reset
 
 header {
     height: 40px;
-    background-color: red;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    color: white;
+    padding: 4px 3px;
+    text-decoration: none;
+    font-size: 10px;
 }
 
 footer {
     height: 70px;
-    background-color: green;
+    background-color: #222222;
 }
 
 main {
