@@ -57,15 +57,12 @@ main {
     width: 90%;
     height: 35vw;
     background-color: pink;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.posizione {
-    display: flex;
-}
 
 img {
     width: 100%;
