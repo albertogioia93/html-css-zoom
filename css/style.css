@@ -12,5 +12,17 @@ Reset
 }
 
 header {
+    height: 40px;
     background-color: red;
+}
+
+footer {
+    height: 70px;
+    background-color: green;
+}
+
+main {
+    height: calc(100vh - 110px);
+    background-color: yellow;
+    overflow: auto;
 }
