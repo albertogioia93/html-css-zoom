@@ -39,34 +39,44 @@ footer {
 main {
     position: relative;
     height: calc(100vh - 110px);
-    background-color: yellow;
+    background-color: black;
     overflow: auto;
+    padding: 70px 70px 27px 70px;
+
 }
 
-.foto {
-    width: calc(100% / 7);
-    height: 18vh;
-    background-color: black;
-    border: 2px dashed red;
-    padding: 5px;
-}
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    height: 35vw;
-    background-color: pink;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: black;   
 }
 
+.foto {
+    width: calc(100% / 7);
+    /* height: 18vh; */
+    /* background-color: black;
+    border: 2px dashed red; */
+    position: relative;
+    padding: 2px;
+}
 
 img {
     width: 100%;
 }
+
+.tag {
+    position: absolute;
+    background-color: rgb(97, 110, 123, 0.5);
+    color: white;
+    padding: 4px 3px;
+    text-decoration: none;
+    font-size: 10px;
+    left: 2px;
+    bottom: 6px;
+}
+
     
     
     
