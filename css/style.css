@@ -98,6 +98,7 @@ footer {
 
 p {
     font-size: 10px;
+    color: white;
 }
 
 .freccetta {
@@ -120,12 +121,28 @@ p {
 
 h2 {
     background-color: #4a4a4a;
-    width: 20%;
     color: red;
     font-size: 10px;
-    text-align: center;
-    padding-top: 25px;
+    padding: 30px;
 }
+
+.allineamenti3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #4dce00;
+    font-size: 22px;
+    gap: 9px;
+}
+
+.endbutton {
+    display: flex;
+    width: 20%;
+    justify-content: end;
+}
+
+
 
     
     
